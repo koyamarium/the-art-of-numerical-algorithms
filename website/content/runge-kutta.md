@@ -2,7 +2,7 @@
 
 RK2 and RK4 denote orders, while SSP describes a stability-inheritance
 property. These labels answer different questions. The
-[Runge–Kutta family notebook](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/runge-kutta)
+[Runge–Kutta family notebook](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/runge-kutta)
 compares nine explicit methods, their full stage coefficients, nonlinear
 predictors, linear stability contours, and measured refinement orders.
 

@@ -3,7 +3,7 @@
 The original cubic-interpolated pseudo-particle (CIP) idea stores a field and
 its spatial derivative, then reconstructs an upwind cubic profile. The broader
 family is also called constrained interpolation profile. The
-[CIP notebook](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/cip)
+[CIP notebook](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/cip)
 implements the original polynomial construction for constant-speed periodic
 scalar advection. It compares value-only linear interpolation with CIP and
 checks diffusion, gradient transport, oscillations, refinement, and conservation.

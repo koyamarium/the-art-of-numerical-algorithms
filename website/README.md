@@ -2,7 +2,7 @@
 
 A static, English reading site for **The Art of Numerical Algorithms**.
 
-Public URL: https://koyamahr.github.io/the-art-of-numerical-algorithms/
+Public URL: https://koyamarium.github.io/the-art-of-numerical-algorithms/
 
 ## Build
 

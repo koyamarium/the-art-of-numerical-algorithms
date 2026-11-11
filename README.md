@@ -1,6 +1,6 @@
-> The current web edition is **[An Atlas of Numerical Methods](https://koyamahr.github.io/numerical-methods-atlas/)**. This repository preserves the original source history and v0.1.0 release. Its GitHub Pages site forwards existing links to the new edition, retaining language, chapter and section parameters.
+> The current web edition is **[An Atlas of Numerical Methods](https://koyamarium.github.io/numerical-methods-atlas/)**. This repository preserves the original source history and v0.1.0 release. Its GitHub Pages site forwards existing links to the new edition, retaining language, chapter and section parameters.
 >
-> Continue development at [koyamahr/numerical-methods-atlas](https://github.com/koyamahr/numerical-methods-atlas).
+> Continue development at [koyamarium/numerical-methods-atlas](https://github.com/koyamarium/numerical-methods-atlas).
 
 # The Art of Numerical Algorithms
 
@@ -9,14 +9,14 @@
 A historical, executable guide to numerical algorithms: the equations they solve,
 the ideas behind their discretizations, and the evidence used to check them.
 This is the **first edition, v0.1.0**, and a companion to
-[The Art of Thermal Instability](https://koyamahr.github.io/the-art-of-thermal-instability/#home).
+[The Art of Thermal Instability](https://koyamarium.github.io/the-art-of-thermal-instability/#home).
 
 Explore the [historical atlas](docs/history.md), run the Python examples, and
 compare the results with analytical solutions and conservation checks. The
 library covers selected educational models; the [roadmap](docs/roadmap.md)
 identifies the extensions still to be implemented.
 
-**[Read the web edition](https://koyamahr.github.io/the-art-of-numerical-algorithms/)** — browse the atlas, methods, gallery, and searchable references.
+**[Read the web edition](https://koyamarium.github.io/the-art-of-numerical-algorithms/)** — browse the atlas, methods, gallery, and searchable references.
 
 ## Getting started
 
@@ -54,14 +54,14 @@ New exhibits: [CIP value/gradient transport](docs/cip.md), [Runge–Kutta famili
 
 ## Interactive notebooks
 
-- [Stability laboratory](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/experiments): compute periodic FTCS, upwind, LF, and LW advection in the browser. Change the signed Courant number, initial profile, and step count; inspect amplification and export the experiment.
-- [Convergence notebook](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/convergence): inspect the original DG and Euler entropy-wave refinement data, switch between elements and unknowns, and read measured convergence orders.
-- [CIP profiles](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/cip): cubic-Hermite value/gradient transport, scalar advection, refinement, oscillations, and a conservation counterexample.
-- [Runge–Kutta families](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/runge-kutta): nine explicit RK methods, actual nonlinear stages, Butcher tableaus, stability contours, measured orders, and conditional SSP bounds.
-- [Time integration](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/time-integration): twelve Python-computed oscillator methods, including unfiltered leapfrog and its startup mode.
-- [Mesh explorer](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/meshes): select cells and inspect face-sharing neighbors in structured and irregular meshes.
-- [Hamiltonian maps](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/hamiltonian): symplectic Euler, Verlet, Yoshida fourth order, implicit midpoint, and RK4 on two Hamiltonians.
-- [Limiter notebook](https://koyamahr.github.io/the-art-of-numerical-algorithms/#/limiters): minmod, Superbee, MC, van Leer, and clipped van Albada; scalar advection, Sod, Sweby bounds, refinement, TVB parameters, and a separate mean-preserving positive Euler reconstruction.
+- [Stability laboratory](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/experiments): compute periodic FTCS, upwind, LF, and LW advection in the browser. Change the signed Courant number, initial profile, and step count; inspect amplification and export the experiment.
+- [Convergence notebook](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/convergence): inspect the original DG and Euler entropy-wave refinement data, switch between elements and unknowns, and read measured convergence orders.
+- [CIP profiles](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/cip): cubic-Hermite value/gradient transport, scalar advection, refinement, oscillations, and a conservation counterexample.
+- [Runge–Kutta families](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/runge-kutta): nine explicit RK methods, actual nonlinear stages, Butcher tableaus, stability contours, measured orders, and conditional SSP bounds.
+- [Time integration](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/time-integration): twelve Python-computed oscillator methods, including unfiltered leapfrog and its startup mode.
+- [Mesh explorer](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/meshes): select cells and inspect face-sharing neighbors in structured and irregular meshes.
+- [Hamiltonian maps](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/hamiltonian): symplectic Euler, Verlet, Yoshida fourth order, implicit midpoint, and RK4 on two Hamiltonians.
+- [Limiter notebook](https://koyamarium.github.io/the-art-of-numerical-algorithms/#/limiters): minmod, Superbee, MC, van Leer, and clipped van Albada; scalar advection, Sod, Sweby bounds, refinement, TVB parameters, and a separate mean-preserving positive Euler reconstruction.
 - [Experiment guide](docs/experiments.md): equations, provenance, reproducibility, and the limits of each comparison.
 
 ## Run a benchmark
@@ -143,7 +143,7 @@ preservation, GLM error cleaning, linear-system residuals, boundary conditions,
 and multigrid. These checks establish behavior for the tested cases; they do
 not prove general positivity or nonlinear stability.
 
-[GitHub Actions](https://github.com/koyamahr/the-art-of-numerical-algorithms/actions)
+[GitHub Actions](https://github.com/koyamarium/the-art-of-numerical-algorithms/actions)
 runs the numerical checks and gallery generation on Python 3.9 and 3.12.
 Bibliographic notes record whether a source is an original paper, a later
 exposition, or a reference that still needs direct inspection. Regenerate the

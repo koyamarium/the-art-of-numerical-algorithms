@@ -18,7 +18,7 @@ concurrency:
 
 jobs:
   build:
-    if: github.repository == 'koyamahr/the-art-of-numerical-algorithms'
+    if: github.repository == 'koyamarium/the-art-of-numerical-algorithms'
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
@@ -29,7 +29,7 @@ jobs:
           import json
           from pathlib import Path
           from urllib.request import urlopen
-          destination = 'https://koyamahr.github.io/numerical-methods-atlas/'
+          destination = 'https://koyamarium.github.io/numerical-methods-atlas/'
           with urlopen(destination+'site.json', timeout=30) as response:
               site = json.load(response)
           assert site['publicUrl'] == destination

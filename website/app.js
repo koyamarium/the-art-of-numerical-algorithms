@@ -6,7 +6,7 @@ import {hamiltonianPage,wireHamiltonian} from './hamiltonian.js';
 import {timePage,meshPage,wireTime,wireMesh} from './foundations.js';
 import {stabilityPage,convergencePage,wireStability,wireConvergence} from './experiments.js';
 const main = document.querySelector('main');
-const repo = 'https://github.com/koyamahr/the-art-of-numerical-algorithms';
+const repo = 'https://github.com/koyamarium/the-art-of-numerical-algorithms';
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const methods = [
   {id:'stability',number:'01',title:'Differences & stability',subtitle:'Start with the stencil.',description:'Follow information through a grid. Separate spatial differences, time integration, the CFL condition, and linear stability.',formula:'uₜ + a uₓ = 0',tag:'FINITE DIFFERENCES'},
